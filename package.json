@@ -1,7 +1,8 @@
 {
   "name": "vtex-where-builder",
+  "author": "Marcelo Castro <marceloctj@gmail.com>",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
