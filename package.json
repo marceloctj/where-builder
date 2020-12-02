@@ -1,0 +1,20 @@
+{
+  "name": "vtex-where-builder",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "build": "rimraf ./dist && tsc --build --pretty",
+    "dev": "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "nodemon": "^2.0.6",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.0.0"
+  },
+  "dependencies": {
+    "typescript": "^4.1.2"
+  }
+}
